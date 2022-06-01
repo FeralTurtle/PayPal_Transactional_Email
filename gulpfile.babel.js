@@ -59,7 +59,7 @@ function pages() {
       layouts: 'src/layouts',
       partials: 'src/partials',
       helpers: 'src/helpers',
-      json: 'src/json'
+      data: 'src/data'
     }))
     .pipe(inky())
     .pipe(gulp.dest('dist'));
