@@ -1,0 +1,8 @@
+.item-details-table {
+    width: 500px !important;
+    &__item {
+        &--bold {
+            font-weight: 600;
+        }
+    }
+}
