@@ -1,7 +1,10 @@
 .item-details-table {
     width: 500px !important;
     &__item {
+        display: block;
+        margin-bottom: 3px;
         &--bold {
+            margin-bottom: 3px;
             font-weight: 600;
         }
     }

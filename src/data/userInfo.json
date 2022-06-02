@@ -2,7 +2,7 @@
     "firstName": "Person",
     "lastName": "Name",
     "email": "personName@gmail.com",
-    "address:": "1234 Some Street",
+    "address": "1234 Some Street",
     "city": "Austin",
     "state": "TX",
     "zipCode": "12345",
