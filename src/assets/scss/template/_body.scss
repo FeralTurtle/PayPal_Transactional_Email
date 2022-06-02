@@ -5,6 +5,12 @@
         width: auto !important;
         margin: 0px 50px;
         font-size: 18px;
-        color: #687173;
+        color: $dark-gray;
+    }
+}
+
+.body-middle {
+    &__header {
+        color: $light-blue;
     }
 }

@@ -1,0 +1,60 @@
+<container class="transaction-details-table">
+    <row>
+        <columns>
+            <span class="transaction-details-table__item--bold">Your Transaction ID:</span>
+            <span class="transaction-details-table__item">{{transactionDetails.transactionID}}</span>
+        </columns>
+        <columns>
+            <span class="transaction-details-table__item--bold">Merchant Transaction ID:</span>
+            <span class="transaction-details-table__item">{{transactionDetails.merchantTransactionID}}</span>
+        </columns>
+    </row>
+    <spacer size="22"></spacer>
+    <row>
+        <columns>
+            <span class="transaction-details-table__item--bold">Purchase Date:</span>
+            <span class="transaction-details-table__item">{{transactionDetails.purchaseDate}}</span>
+        </columns>
+        <columns>
+            <span class="transaction-details-table__item"></span>
+            <span class="transaction-details-table__item"></span>
+        </columns>
+    </row>
+    <spacer size="22"></spacer>
+    <row>
+        <columns>
+            <span class="transaction-details-table__item--bold">Payment to:</span>
+            <span class="transaction-details-table__item">{{transactionDetails.paymentTo}}</span>
+        </columns>
+        <columns>
+            <span class="transaction-details-table__item--bold">Payment from:</span>
+            <span class="transaction-details-table__item">{{userInfo.firstName}} {{userInfo.lastName}}</span>
+        </columns>
+    </row>
+    <spacer size="22"></spacer>
+    <row>
+        <columns>
+            <span class="transaction-details-table__item--bold">Invoice ID:</span>
+            <span class="transaction-details-table__item">{{transactionDetails.invoiceID}}</span>
+        </columns>
+        <columns>
+            <span class="transaction-details-table__item"></span>
+            <span class="transaction-details-table__item"></span>
+        </columns>
+    </row>
+    <spacer size="22"></spacer>
+    <row>
+        <columns>
+            <span class="transaction-details-table__item--bold">Shipping Address:</span>
+            <span class="transaction-details-table__item">{{userInfo.firstName}} {{userInfo.lastName}}</span>
+            <span class="transaction-details-table__item">{{userInfo.address}}</span>
+            <span class="transaction-details-table__item">{{userInfo.city}}, {{userInfo.state}} {{userInfo.zipCode}}</span>
+            <span class="transaction-details-table__item">{{userInfo.country}}</span>
+        </columns>
+        <columns>
+            <span class="transaction-details-table__item"></span>
+            <span class="transaction-details-table__item"></span>
+        </columns>
+    </row>
+    <row>
+</container>

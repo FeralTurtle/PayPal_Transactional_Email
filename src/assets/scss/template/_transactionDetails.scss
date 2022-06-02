@@ -1,0 +1,9 @@
+.transaction-details-table {
+    width: 500px !important;
+    &__item {
+        display: block;
+        &--bold {
+            font-weight: 600;
+        }
+    }
+}
