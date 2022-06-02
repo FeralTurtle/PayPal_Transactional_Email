@@ -1,0 +1,10 @@
+.body-top {
+    background: url('https://cdn.jsdelivr.net/gh/FeralTurtle/PayPal_Transactional_Email/dist/assets/img/gray-lines-top-card.png');
+    background-size: 600px;
+    &__text {
+        width: auto !important;
+        margin: 0px 50px;
+        font-size: 18px;
+        color: #687173;
+    }
+}
