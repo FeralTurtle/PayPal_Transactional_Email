@@ -1,25 +1,35 @@
-<wrapper class="body-top">
-    <row>
+<container class="body--reduce">
+    <wrapper class="body-top">
+        <row>
+            <columns>
+                <span class="text-center body-top__text">Create an account with PayPal and activate Return Shipping on Us. Limitations apply.</span>
+                <spacer size="15"></spacer>
+                <center>
+                    <button href="#" class="rounded">Activate PayPal Now</button>
+                </center>
+            </columns>
+        </row>
+    </wrapper>
+    
+    <row class="body-middle">
         <columns>
-            <span class="text-center body-top__text">Create an account with PayPal and activate Return Shipping on Us. Limitations apply.</span>
-            <spacer size="15"></spacer>
+            <spacer size="29"></spacer>
+            <span class="text-center body-middle__header">Your purchase details</span>
+            <spacer size="17"></spacer>
+            {{> transactionDetails}}
+            <spacer size="34"></spacer>
+            {{> itemDetails}}
+            <spacer size="18"></spacer>
+            {{> pricing}}
+            <spacer size="22"></spacer>
+            <p>You paid using: {{transactionDetails.paymentMethod}}</p>
+            <p>This credit card transaction will appear on your statement as PAYPAL {{transactionDetails.vendor}}</p>
+            <spacer size="12"></spacer>
             <center>
                 <button href="#" class="rounded">Activate PayPal Now</button>
             </center>
+            <spacer size="30"></spacer>
+            <img src="https://cdn.jsdelivr.net/gh/FeralTurtle/PayPal_Transactional_Email/dist/assets/img/card-bottom.png" alt="card bottom">
         </columns>
-    </row>
-</wrapper>
-
-<row class="body-middle">
-    <columns>
-        <spacer size="29"></spacer>
-        <span class="text-center body-middle__header">Your purchase details</span>
-        <spacer size="17"></spacer>
-    </columns>
-    {{> transactionDetails}}
-    <spacer size="34"></spacer>
-    {{> itemDetails}}
-    <spacer size="18"></spacer>
-    {{> pricing}}
-    <spacer size="15"></spacer>
-</row>
+    </row> 
+</container>

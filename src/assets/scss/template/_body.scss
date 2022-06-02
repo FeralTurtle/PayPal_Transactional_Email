@@ -1,3 +1,10 @@
+.body {
+    &--reduce {
+        background-color: black !important;
+        width: 500px !important;
+    }
+}
+
 .body-top {
     background: url('https://cdn.jsdelivr.net/gh/FeralTurtle/PayPal_Transactional_Email/dist/assets/img/gray-lines-top-card.png');
     background-size: 600px;
@@ -13,4 +20,8 @@
     &__header {
         color: $light-blue;
     }
+}
+
+.body-bottom {
+    width: 500px !important;
 }

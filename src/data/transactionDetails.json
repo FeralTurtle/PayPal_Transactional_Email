@@ -1,4 +1,5 @@
 {
+    "vendor": "CompanyName",
     "paymentMethod": "Visa x-1234",
     "transactionID": "7041789AS8789543Z",
     "purchaseDate": "April 15, 2022",
