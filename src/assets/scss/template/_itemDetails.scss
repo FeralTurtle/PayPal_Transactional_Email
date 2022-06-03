@@ -1,3 +1,19 @@
+/* Small only */
+@media only screen and (max-width: #{$global-breakpoint}) {
+    .item-details-table {
+        &__item {
+            display: block;
+            margin-bottom: 3px;
+            margin-left: 21px;
+            &--bold {
+                margin-bottom: 3px;
+                margin-left: 21px;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
 .item-details-table {
     &__item {
         display: block;
