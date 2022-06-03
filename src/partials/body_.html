@@ -25,23 +25,20 @@
                 <spacer size="22"></spacer>
             </columns>
         </row>
+        <row class="body-bottom">
+            <columns>
+                <spacer size="12"></spacer>
+                    <p class="text-left body-bottom__text">You paid using {{transactionDetails.paymentMethod}}</p>
+                    <p class="text-left body-bottom__text">The credit card transaction will appear on your statement as PAYPAL {{transactionDetails.vendor}}</p>
+                <center>
+                    <button href="#" class="rounded">Activate PayPal Now</button>
+                </center>
+                <spacer size="30"></spacer>
+                <center>
+                    <img src="https://cdn.jsdelivr.net/gh/FeralTurtle/PayPal_Transactional_Email/dist/assets/img/card-bottom1.png" alt="card bottom">
+                </center>
+                <spacer size="12"></spacer>
+            </columns>
+        </row>
     </wrapper>
 </container>
-
-<wrapper class="body-bottom">
-    <row>
-        <columns>
-            <spacer size="12"></spacer>
-                <p class="text-left body-bottom__text">You paid using {{transactionDetails.paymentMethod}}</p>
-                <p class="text-left body-bottom__text">The credit card transaction will appear on your statement as PAYPAL {{transactionDetails.vendor}}</p>
-            <center>
-                <button href="#" class="rounded">Activate PayPal Now</button>
-            </center>
-            <spacer size="30"></spacer>
-            <center>
-                <img src="https://cdn.jsdelivr.net/gh/FeralTurtle/PayPal_Transactional_Email/dist/assets/img/card-bottom1.png" alt="card bottom">
-            </center>
-            <spacer size="12"></spacer>
-        </columns>
-    </row>
-</wrapper>
