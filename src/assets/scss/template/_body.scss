@@ -3,6 +3,11 @@
   .body-top {
     background: none !important;
   }
+  .body-bottom {
+    &__text {
+      margin-left: 25px;
+    }
+  }
 }
 
 .body {
