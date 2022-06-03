@@ -144,6 +144,20 @@ th.large-3.last {
   width: 25%;
 }
 
+th.large-4 {
+  width: 200px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+th.large-4.first {
+  padding-left: 0px;
+}
+
+th.large-4.last {
+  padding-right: 0px;
+}
+
 th.large-6 {
   width: 300px;
   padding-left: 0px;
