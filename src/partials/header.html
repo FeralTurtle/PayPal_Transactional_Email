@@ -1,32 +1,20 @@
-<wrapper class="header-top">
-    <spacer size="25"></spacer>
-    <row class="collapse">
-        <columns valign="middle">
-            <p class="text-center">Hello, {{userInfo.firstName}} {{userInfo.lastName}}</p>
+<spacer size="25"></spacer>
+<row>
+    <columns>
+        <wrapper class="header-top">
+            <p class="text-center header-top__p">Hello, {{userInfo.firstName}} {{userInfo.lastName}}</p>
             <center>
-                <img src="https://cdn.jsdelivr.net/gh/tupasj/PayPal_Transactional_Email/dist/assets/img/paypal-logo-circle-top.png" alt="paypal logo circle top">
+                <img class="header-top__img" src="https://cdn.jsdelivr.net/gh/tupasj/PayPal_Transactional_Email/dist/assets/img/paypal-logo-circle-top.png" alt="paypal logo circle top">
             </center>
-        </columns>
-    </row>
-</wrapper>
-<wrapper class="header-middle">
-    <row>
-        <columns>
+        </wrapper>
+        <wrapper class="header-middle">
             <center>
                 <img src="https://cdn.jsdelivr.net/gh/tupasj/PayPal_Transactional_Email/dist/assets/img/paypal-logo-circle-middle.png" alt="paypal logo circle middle">
             </center>
-        </columns>
-    </row>
-    <row>
-        <columns>
-            <img class="show-for-large" src="https://cdn.jsdelivr.net/gh/tupasj/PayPal_Transactional_Email/dist/assets/img/blue-gradient-top.png" alt="blue gradient top">
-        </columns>
-    </row>
-</wrapper>
-<wrapper class="header-bottom">
-    <row>
-        <columns valign="middle">
+                <img class="show-for-large" src="https://cdn.jsdelivr.net/gh/tupasj/PayPal_Transactional_Email/dist/assets/img/blue-gradient-top.png" alt="blue gradient top">
+        </wrapper>
+        <wrapper class="header-bottom">
             <span class="text-center header-bottom__text">You paid $12.75 to CompanyName</span>
-        </columns>
-    </row>
-</wrapper>
+        </wrapper>
+    </columns>
+</row>

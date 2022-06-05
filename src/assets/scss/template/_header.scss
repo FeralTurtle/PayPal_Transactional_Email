@@ -9,6 +9,12 @@
 .header-top {
     background-color: $light-gray;
     height: 70px;
+    &__p {
+        margin-top: 32px;
+    }
+    &__img {
+        margin-top: 33px;
+    }
 }
 
 .header-bottom {

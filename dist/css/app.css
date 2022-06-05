@@ -213,16 +213,6 @@ th.large-12.last {
   padding-right: 0px;
 }
 
-.collapse > tbody > tr > th.large-12:not([class*=large-offset]) {
-  padding-right: 0;
-  padding-left: 0;
-  width: 600px;
-}
-.collapse > tbody > tr th.large-12.first,
-.collapse > tbody > tr th.large-12.last {
-  width: 600px;
-}
-
 .body .columns th.large-12 {
   width: 100%;
 }
@@ -263,10 +253,6 @@ th.float-center {
   Margin: 0 auto;
   float: none;
   text-align: center;
-}
-
-th.columns[valign=middle] {
-  vertical-align: middle;
 }
 
 @media only screen and (max-width: 600px) {
@@ -482,21 +468,13 @@ table.menu th {
 }
 /* Small only */
 @media only screen and (max-width: 600px) {
-  .body-top {
-    background: none !important;
-  }
 
   .body-bottom__text {
     margin-left: 25px;
   }
 }
-.body--width500 {
-  width: 500px !important;
-}
-
-.body-top {
-  background: url("https://cdn.jsdelivr.net/gh/tupasj/PayPal_Transactional_Email/dist/assets/img/gray-lines-top-card.png");
-  background-size: 600px;
+.purchase-details-wrapper .wrapper-inner {
+  padding: 0px 32px;
 }
 .body-top__text {
   width: auto !important;
@@ -519,6 +497,12 @@ table.menu th {
 .header-top {
   background-color: #F5F7FA;
   height: 70px;
+}
+.header-top__p {
+  margin-top: 32px;
+}
+.header-top__img {
+  margin-top: 33px;
 }
 
 .header-bottom {

@@ -1,44 +1,31 @@
-<wrapper class="body-top">
-    <row>
-        <columns>
-            <span class="text-center body-top__text">Create an account with PayPal and activate Return Shipping on Us. Limitations apply.</span>
-            <spacer size="15"></spacer>
-            <center>
-                <button href="#" class="rounded">Activate PayPal Now</button>
-            </center>
-        </columns>
-    </row>
-</wrapper>
-
-<container class="body--width500">
-    <wrapper class="body-middle">
-        <row>
-            <columns>
-                <spacer size="29"></spacer>
-                <span class="text-center body-middle__header">Your purchase details</span>
-                <spacer size="17"></spacer>
-                {{> transactionDetails}}
-                <spacer size="34"></spacer>
-                {{> itemDetails}}
-                <spacer size="18"></spacer>
-                {{> pricing}}
-                <spacer size="22"></spacer>
-            </columns>
-        </row>
-        <row class="body-bottom">
-            <columns>
-                <spacer size="12"></spacer>
-                    <p class="text-left body-bottom__text">You paid using {{transactionDetails.paymentMethod}}</p>
-                    <p class="text-left body-bottom__text">The credit card transaction will appear on your statement as PAYPAL {{transactionDetails.vendor}}</p>
-                <center>
-                    <button href="#" class="rounded">Activate PayPal Now</button>
-                </center>
-                <spacer size="30"></spacer>
-                <center>
-                    <img src="https://cdn.jsdelivr.net/gh/tupasj/PayPal_Transactional_Email/dist/assets/img/card-bottom1.png" alt="card bottom">
-                </center>
-                <spacer size="12"></spacer>
-            </columns>
-        </row>
-    </wrapper>
-</container>
+<row>
+    <columns>
+        <span class="text-center body-top__text">Create an account with PayPal and activate Return Shipping on Us. Limitations apply.</span>
+        <spacer size="15"></spacer>
+        <center>
+            <button href="#" class="rounded">Activate PayPal Now</button>
+        </center>
+        <spacer size="29"></spacer>
+        <span class="text-center body-middle__header">Your purchase details</span>
+        <spacer size="17"></spacer>
+        <wrapper class="purchase-details-wrapper">
+            {{> transactionDetails}}
+            <spacer size="34"></spacer>
+            {{> itemDetails}}
+            <spacer size="18"></spacer>
+            {{> pricing}}
+        </wrapper>
+        <spacer size="22"></spacer>
+        <spacer size="12"></spacer>
+            <p class="text-left body-bottom__text">You paid using {{transactionDetails.paymentMethod}}</p>
+            <p class="text-left body-bottom__text">The credit card transaction will appear on your statement as PAYPAL {{transactionDetails.vendor}}</p>
+        <center>
+            <button href="#" class="rounded">Activate PayPal Now</button>
+        </center>
+        <spacer size="30"></spacer>
+        <center>
+            <img src="https://cdn.jsdelivr.net/gh/tupasj/PayPal_Transactional_Email/dist/assets/img/card-bottom1.png" alt="card bottom">
+        </center>
+        <spacer size="12"></spacer>
+    </columns>
+</row>
