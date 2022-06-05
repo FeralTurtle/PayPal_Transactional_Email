@@ -495,7 +495,7 @@ table.menu th {
 }
 
 .body-top {
-  background: url("https://cdn.jsdelivr.net/gh/FeralTurtle/PayPal_Transactional_Email/dist/assets/img/gray-lines-top-card.png");
+  background: url("https://cdn.jsdelivr.net/gh/tupasj/PayPal_Transactional_Email/dist/assets/img/gray-lines-top-card.png");
   background-size: 600px;
 }
 .body-top__text {
@@ -523,7 +523,7 @@ table.menu th {
 
 .header-bottom {
   height: 99px;
-  background: url("https://cdn.jsdelivr.net/gh/FeralTurtle/PayPal_Transactional_Email/dist/assets/img/blue-gradient-bottom.png");
+  background: url("https://cdn.jsdelivr.net/gh/tupasj/PayPal_Transactional_Email/dist/assets/img/blue-gradient-bottom.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
